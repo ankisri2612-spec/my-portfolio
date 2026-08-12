@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Education — Ankit Srivastava</title>
+<meta name="description" content="Ph.D., M.Tech, and B.Tech in Computer Science & Engineering. — Ankit Srivastava, Assistant Professor of Computer Science.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-title"><span class="eyebrow">Curriculum Vitæ</span>Ankit Srivastava</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">Menu</button>
+    <nav class="primary-nav" id="primaryNav">
+      <ol>
+        <li><a href="index.html">Home</a></li><li><a href="experience.html"><span class="num">§1</span>Experience</a></li><li><a href="education.html" aria-current="page"><span class="num">§2</span>Education</a></li><li><a href="research.html"><span class="num">§3</span>Research</a></li><li><a href="publications.html"><span class="num">§4</span>Publications</a></li><li><a href="conferences.html"><span class="num">§5</span>Conferences</a></li><li><a href="patents.html"><span class="num">§6</span>Patents</a></li><li><a href="books.html"><span class="num">§7</span>Books</a></li><li><a href="development.html"><span class="num">§8</span>Development</a></li><li><a href="skills.html"><span class="num">§9</span>Skills</a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+<div class="page-header">
+  <div class="page-header-inner">
+    <span class="eyebrow">§2 · Education</span>
+    <h1>Education</h1>
+    <p>Ph.D., M.Tech, and B.Tech in Computer Science & Engineering.</p>
+  </div>
+</div>
+<main id="main"><section id="education">
+  <table class="edu">
+    <thead>
+      <tr><th>Degree</th><th>Specialization</th><th>Institution</th><th>%/CGPA</th><th>Year</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="degree">Ph.D.</td><td>Computer Science &amp; Engineering</td><td>NIT Agartala</td><td>8.62</td><td>Thesis Submitted</td></tr>
+      <tr><td class="degree">M.Tech.</td><td>Computer Science &amp; Engineering</td><td>RGPV</td><td>8.39</td><td>2019</td></tr>
+      <tr><td class="degree">B.Tech.</td><td>Computer Science &amp; Engineering</td><td>AKTU (formerly UPTU)</td><td>68.14</td><td>2009</td></tr>
+      <tr><td class="degree">12th Grade</td><td>Science (Mathematics)</td><td>U.P. Board</td><td>67.40</td><td>2004</td></tr>
+      <tr><td class="degree">10th Grade</td><td>Science</td><td>U.P. Board</td><td>69.33</td><td>2002</td></tr>
+    </tbody>
+  </table>
+</section><div class="page-nav"><a href="experience.html">&larr; Experience</a><a href="research.html" class="next">Research &rarr;</a></div></main><footer>
+  <div class="contact-row">
+    <a href="mailto:srivastava.chaman@gmail.com">srivastava.chaman@gmail.com</a>
+    <span>+91 93350 26248</span>
+    <a href="https://www.linkedin.com/in/ankit-srivastava-4849791a/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <p class="fine">References available upon request. &copy; 2026 Ankit Srivastava.</p>
+</footer>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const primaryNav = document.getElementById('primaryNav');
+  if (navToggle) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = primaryNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+  }
+</script>
+</body>
+</html>
